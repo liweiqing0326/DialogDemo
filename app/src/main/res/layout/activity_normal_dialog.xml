@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通对话框" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="多按钮对话框" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="带Adapter的对话框" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日期对话框" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间对话框" />
+
+    <Button
+        android:id="@+id/btn_NotifyDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示通知对话框" />
+
+    <Button
+        android:id="@+id/btn_ListDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示列表对话框" />
+
+    <Button
+        android:id="@+id/btn_SinpleChioceDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示单选对话框" />
+
+    <Button
+        android:id="@+id/btn_MultiChioceDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示多选对话框" />
+
+    <Button
+        android:id="@+id/btn_ProgressDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示进度对话框" />
+
+</LinearLayout>

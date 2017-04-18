@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_nomal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="显示普通对话框" />
+
+    <Button
+        android:id="@+id/btn_Custom"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="显示自定义对话框" />
+
+    <Button
+        android:id="@+id/btn_DialogFragment"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/dialogframent"/>
+
+</LinearLayout>

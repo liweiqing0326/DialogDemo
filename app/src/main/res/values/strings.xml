@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DialogDemo</string>
+    <string name="dialogframent">显示DialogFrament</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogui_ll_bg"
+    android:layout_width="120dp"
+    android:layout_height="120dp"
+    android:layout_centerInParent="true"
+    android:background="#968545"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/pb_bg"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="center_horizontal"
+        android:indeterminateDrawable="@drawable/dialogui_rotate_mum_light"
+        android:indeterminateDuration="1200" />
+
+    <TextView
+        android:id="@+id/dialogui_tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:maxWidth="300dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="加载中..."
+        android:textColor="#986985" />
+
+</LinearLayout>
+
